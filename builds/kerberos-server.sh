@@ -65,7 +65,7 @@ sudo cp db.ldif ~/db.ldif
 sudo cp monitor.ldif ~/monitor.ldif
 sudo cp base.ldif    ~/base.ldif
 sudo ldapmodify -Y EXTERNAL  -H ldapi:/// -f ~/db.ldif
-sudo ldapmodify -Y EXTERNAL  -H ldapi:/// -f monitor.ldif 
+sudo ldapmodify -Y EXTERNAL  -H ldapi:/// -f ~/monitor.ldif 
 ########################################################################
 ########################################################################
 sudo ldapadd -Y EXTERNAL -H ldapi:/// -f /etc/openldap/schema/cosine.ldif
