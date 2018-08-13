@@ -1,0 +1,17 @@
+dn: uid=ananth,ou=people,dc=apache,dc=com
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: ananth
+uid: ananth
+uidNumber: 9999
+gidNumber: 100
+homeDirectory: /home/ananth
+loginShell: /bin/bash
+gecos: Ananth
+userPassword: password
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
